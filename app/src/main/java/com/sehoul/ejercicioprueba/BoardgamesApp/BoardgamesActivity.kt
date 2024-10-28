@@ -21,7 +21,7 @@ class BoardgamesActivity : AppCompatActivity() {
         Legacy
     )
 
-    private var games = listOf(
+    private var games = mutableListOf(
         // String ; Categoria ;
         Game("Ruleta rusa", Euro),
         Game("Poker", LCG),
@@ -49,7 +49,9 @@ class BoardgamesActivity : AppCompatActivity() {
         categoriesAdapter = CategoriesAdapter(categories)
         rvCategories.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         rvCategories.adapter = categoriesAdapter
-     //   gamesAdapter = GamesAdapter(games)
+
+        GamesAdapter = GamesAdapter(games)
+        rvGames.layoutManager = LinearLayoutManager(this,LinearLayoutManager)
     }
 
 
