@@ -11,7 +11,6 @@ class CategoriesAdapter(private var categories: List<GameCategory>) :
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_game_category, parent, false)
         return CategoriesViewHolder(view)
     }
-
     override fun getItemCount() =  categories.size
 
     override fun onBindViewHolder(holder: CategoriesViewHolder, position: Int) {

@@ -21,6 +21,15 @@ class BoardgamesActivity : AppCompatActivity() {
         Legacy
     )
 
+    private var games = listOf(
+        // String ; Categoria ;
+        Game("Ruleta rusa", Euro),
+        Game("Poker", LCG),
+        Game("Fire & Water", Cooperative),
+        Game("Minecraft", Deckbuilding),
+        Game("Hogwarts Legacy", Legacy)
+    )
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
