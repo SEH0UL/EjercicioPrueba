@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,13 +14,17 @@
         android:theme="@style/Theme.EjercicioPrueba"
         tools:targetApi="31">
         <activity
+            android:name=".BoardgamesApp.BoardgamesActivity"
+            android:theme="@style/Theme.BoardgamesApp"
+            android:exported="false" />
+        <activity
             android:name=".MessageApp.ResultActivity"
             android:exported="false" />
         <activity
             android:name=".IMCapp.IMCactivity"
             android:exported="false" />
         <activity
-            android:name=".MessageApp.MenuActivity"
+            android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PruebaEjercicio2Pantalla"
+            android:name=".MessageApp.PruebaEjercicio2Pantalla"
             android:exported="false" />
         <activity
             android:name=".MessageApp.MainActivity"

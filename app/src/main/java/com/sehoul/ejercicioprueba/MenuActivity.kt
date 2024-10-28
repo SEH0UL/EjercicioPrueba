@@ -1,12 +1,13 @@
-package com.sehoul.ejercicioprueba.MessageApp
+package com.sehoul.ejercicioprueba
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.sehoul.ejercicioprueba.BoardgamesApp.BoardgamesActivity
 import com.sehoul.ejercicioprueba.IMCapp.IMCactivity
-import com.sehoul.ejercicioprueba.R
+import com.sehoul.ejercicioprueba.MessageApp.MainActivity
 
 class MenuActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -16,10 +17,22 @@ class MenuActivity : AppCompatActivity() {
 
         var btnMessageApp = findViewById<Button>(R.id.btnMessageApp)
         var btnIMCapp = findViewById<Button>(R.id.btnIMCapp)
+        var btnBoardgamesApp = findViewById<Button>(R.id.btnBoardgamesApp)
 
         btnMessageApp.setOnClickListener{navigateToMessageApp()}
+        btnBoardgamesApp.setOnClickListener{ navigateToBoardgamesApp() }
         btnIMCapp.setOnClickListener{navigateToIMCapp()}
     }
+
+
+
+
+    private fun navigateToBoardgamesApp(){
+        var intent = Intent(this, BoardgamesActivity::class.java)
+        startActivity(intent)
+    }
+
+
 
     private fun navigateToMessageApp(){
         var intent = Intent(this, MainActivity::class.java)

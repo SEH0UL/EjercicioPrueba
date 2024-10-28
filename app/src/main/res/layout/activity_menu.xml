@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MessageApp.MenuActivity"
+    tools:context=".MenuActivity"
     android:orientation="vertical">
 
     <Button
@@ -23,6 +23,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="IMC APP"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnBoardgamesApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boardgamesactivity"
         android:textSize="25sp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"/>

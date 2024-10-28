@@ -16,4 +16,7 @@
     <string name="description_sobrepeso">Estás por encima de lo óptimo para tu peso y altura.</string>
     <string name="title_obesidad">Obesidad</string>
     <string name="description_obesidad">Estás MUY por encima de lo óptimo para tu peso y altura.</string>
+    <string name="boardgames">JUEGOS DE MESA</string>
+    <string name="categories">Categorias</string>
+    <string name="games">Juegos</string>
 </resources>

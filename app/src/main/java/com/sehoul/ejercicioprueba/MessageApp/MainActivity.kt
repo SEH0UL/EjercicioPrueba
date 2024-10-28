@@ -6,7 +6,6 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.sehoul.ejercicioprueba.PruebaEjercicio2Pantalla
 import com.sehoul.ejercicioprueba.R
 
 class MainActivity : AppCompatActivity() {
