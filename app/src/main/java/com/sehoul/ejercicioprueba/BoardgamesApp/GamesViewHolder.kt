@@ -22,7 +22,7 @@ class GamesViewHolder (view: View) : RecyclerView.ViewHolder(view) {
         }
 
 
-     //   cbGame.buttonTintList = ColorStateList.valueOf(contextCompat.getColor(cbGame.context, color))
+     //  a cbGame.buttonTintList = ColorStateList.valueOf(contextCompat.getColor(cbGame.context, color))
 
     }
 }
