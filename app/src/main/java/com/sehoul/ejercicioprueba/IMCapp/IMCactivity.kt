@@ -6,10 +6,7 @@ import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.slider.RangeSlider
-import com.sehoul.ejercicioprueba.MessageApp.ResultActivity
 import com.sehoul.ejercicioprueba.R
 import java.lang.Math.pow
 import java.text.DecimalFormat

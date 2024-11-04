@@ -1,12 +1,9 @@
-package com.sehoul.ejercicioprueba.MessageApp
+package com.sehoul.ejercicioprueba.IMCapp
 
 import android.os.Bundle
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.sehoul.ejercicioprueba.R
 
 class ResultActivity : AppCompatActivity() {

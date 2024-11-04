@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sehoul.ejercicioprueba.R
 
-class GamesAdapter (private var games: List<Game>) :
+class GamesAdapter (internal var games: List<Game>, private val onItemSelected: (Int) -> Unit) :
     RecyclerView.Adapter<GamesViewHolder>(){
     // COPIAR Y PEGAR DEL ANTERIOR
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GamesViewHolder {
@@ -17,5 +17,8 @@ class GamesAdapter (private var games: List<Game>) :
 
     override fun onBindViewHolder(holder: GamesViewHolder, position: Int) {
         holder.render(games[position])
+        holder.itemView.setOnClickListener{ onItemSelected(position) }
     }
+
+
 }
