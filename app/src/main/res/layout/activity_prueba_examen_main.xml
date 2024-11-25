@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PruebaExamen.PruebaExamen_Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#673AB7">
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="600dp"
+            android:layout_margin="50dp"
+            android:layout_gravity="center">
+
+            <!-- Envolvemos todo en un LinearLayout vertical -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Primer LinearLayout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="COLOR"
+                        android:textAlignment="center"
+                        android:background="@color/white" />
+                </LinearLayout>
+
+
+                <!-- Segundo LinearLayout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="116dp"
+                        android:layout_height="200dp"
+                        android:background="#C13C13"
+                        android:text="ROJO"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="116dp"
+                                android:layout_height="100dp"
+                                android:background="#FF9800"
+                                android:text="NARANJA"/>
+
+                            <TextView
+                                android:layout_width="116dp"
+                                android:layout_height="100dp"
+                                android:background="#FFEB3B"
+                                android:text="AMARILLO"
+                                android:textColor="@color/black"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="232dp"
+                            android:layout_height="150dp"
+                            android:background="#4CAF50"
+                            android:text="VERDE"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Tercer LinearLayout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="232dp"
+                            android:layout_height="100dp"
+                            android:background="#03A9F4"
+                            android:text="CIAN"/>
+                        
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="116dp"
+                                android:layout_height="200dp"
+                                android:background="#3F51B5"
+                                android:text="AZUL"/>
+
+                            <TextView
+                                android:layout_width="116dp"
+                                android:layout_height="200dp"
+                                android:background="#9C27B0"
+                                android:text="VIOLETA"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="116dp"
+                            android:layout_height="200dp"
+                            android:background="#7E7979"
+                            android:text="GREY"/>
+
+                        <TextView
+                            android:layout_width="116dp"
+                            android:layout_height="100dp"
+                            android:background="@color/white"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
