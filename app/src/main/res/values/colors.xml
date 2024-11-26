@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <!--PRUEBA EXAMEN-->
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="cyan">#FF00BCD4</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="violet">#FF9C27B0</color>
+    <color name="gray">#FF9E9E9E</color>
+    <color name="black">#FF000000</color>
+    <color name="pink_dialog">#E45989</color>
+
+    <!--IMC-APP-->
     <color name="background_component">#1D1E33</color>
     <color name="background_component_selected">#5F3595</color>
     <color name="background_app">#0E0B20</color>

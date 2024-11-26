@@ -26,4 +26,5 @@
     <string name="dialog_lcg_categoryG">LCG</string>
     <string name="dialog_legacy_category">Legacy</string>
     <string name="dialog_lcg_category">LCG</string>
+    <string name="txtChangeColor">Aplicar Color</string>
 </resources>

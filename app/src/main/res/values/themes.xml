@@ -21,6 +21,15 @@
     </style>
 
 
+    <style name="Theme.PruebaExamen_textView" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Centrar el texto horizontal y verticalmente -->
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
 
     <style name="Theme.EjercicioPrueba" parent="Base.Theme.EjercicioPrueba" />
 

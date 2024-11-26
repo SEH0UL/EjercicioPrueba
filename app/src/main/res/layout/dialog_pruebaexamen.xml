@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/pink_dialog"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/etGame"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:hint="Elige un color"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/rgCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Blanco -->
+        <RadioButton
+            android:id="@+id/rbBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/white"
+            android:checked="true"
+            android:text="Blanco"
+            android:textColor="@color/white" />
+
+        <!-- Rojo -->
+        <RadioButton
+            android:id="@+id/rbRojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/red"
+            android:text="Rojo"
+            android:textColor="@color/white" />
+
+        <!-- Naranja -->
+        <RadioButton
+            android:id="@+id/rbNaranja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/orange"
+            android:text="Naranja"
+            android:textColor="@color/white" />
+
+        <!-- Amarillo -->
+        <RadioButton
+            android:id="@+id/rbAmarillo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/yellow"
+            android:text="Amarillo"
+            android:textColor="@color/white" />
+
+        <!-- Verde -->
+        <RadioButton
+            android:id="@+id/rbVerde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/green"
+            android:text="Verde"
+            android:textColor="@color/white" />
+
+        <!-- Cian -->
+        <RadioButton
+            android:id="@+id/rbCian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/cyan"
+            android:text="Cian"
+            android:textColor="@color/white" />
+
+        <!-- Azul -->
+        <RadioButton
+            android:id="@+id/rbAzul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/blue"
+            android:text="Azul"
+            android:textColor="@color/white" />
+
+        <!-- Violeta -->
+        <RadioButton
+            android:id="@+id/rbVioleta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/violet"
+            android:text="Violeta"
+            android:textColor="@color/white" />
+
+        <!-- Gris -->
+        <RadioButton
+            android:id="@+id/rbGris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/gray"
+            android:text="Gris"
+            android:textColor="@color/white" />
+
+        <!-- Negro -->
+        <RadioButton
+            android:id="@+id/rbNegro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/black"
+            android:text="Negro"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/txtChangeColor"
+        android:textColor="@color/white" />
+</LinearLayout>

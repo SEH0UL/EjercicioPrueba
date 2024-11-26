@@ -24,6 +24,7 @@ class MenuActivity : AppCompatActivity() {
         btnMessageApp.setOnClickListener{navigateToMessageApp()}
         btnBoardgamesApp.setOnClickListener{ navigateToBoardgamesApp() }
         btnIMCapp.setOnClickListener{navigateToIMCapp()}
+        btnPruebaExamen.setOnClickListener { navigateToPruebaExamen() }
     }
 
     private fun navigateToPruebaExamen(){
