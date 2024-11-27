@@ -27,4 +27,12 @@
     <string name="dialog_legacy_category">Legacy</string>
     <string name="dialog_lcg_category">LCG</string>
     <string name="txtChangeColor">Aplicar Color</string>
+    <string name="pruebaexamen">Prueba Examen</string>
+    <string name="BoardGamesActivity">Board Games Activity</string>
+    <string name="calculadora_app">Calculadora App</string>
+    <string name="imc_app">IMC APP</string>
+    <string name="messageapp">MessageApp</string>
+    <string name="Calcutreladora">Calcutreladora</string>
+    <string name="Calculadora">Calculadora</string>
+    <string name="primerNumero">Escribe un número</string>
 </resources>

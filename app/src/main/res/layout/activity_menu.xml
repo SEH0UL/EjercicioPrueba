@@ -13,7 +13,7 @@
         android:id="@+id/btnMessageApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MessageApp"
+        android:text="@string/messageapp"
         android:textSize="25sp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"/>
@@ -22,7 +22,7 @@
         android:id="@+id/btnIMCapp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IMC APP"
+        android:text="@string/imc_app"
         android:textSize="25sp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"/>
@@ -31,7 +31,7 @@
         android:id="@+id/btnBoardgamesApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Boardgamesactivity"
+        android:text="@string/BoardGamesActivity"
         android:textSize="25sp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"/>
@@ -40,7 +40,16 @@
         android:id="@+id/btnPruebaExamen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PruebaExamen"
+        android:text="@string/pruebaexamen"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculadora_app"
         android:textSize="25sp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"/>

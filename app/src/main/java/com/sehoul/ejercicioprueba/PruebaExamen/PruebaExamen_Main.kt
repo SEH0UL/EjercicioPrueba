@@ -72,11 +72,16 @@ class PruebaExamen_Main : AppCompatActivity() {
             if (selectedRadioButtonId != -1) {
                 val selectedRadioButton = dialogView.findViewById<RadioButton>(selectedRadioButtonId)
                 val selectedColor = getColorFromRadioButton(selectedRadioButton.id)
+
                 // Cambiar el color de fondo del TextView seleccionado
                 targetView.setBackgroundColor(selectedColor)
+
+                // Cambiar el texto del TextView al nombre del color
+                targetView.text = selectedRadioButton.text
             }
             dialog.dismiss()
         }
+
 
         dialog.show()
     }
