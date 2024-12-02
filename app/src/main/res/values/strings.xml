@@ -35,4 +35,14 @@
     <string name="Calcutreladora">Calcutreladora</string>
     <string name="Calculadora">Calculadora</string>
     <string name="primerNumero">Escribe un número</string>
+    <string name="segundoNumero">Escribe otro número</string>
+    <string name="space">......</string>
+    <string name="Suma">+</string>
+    <string name="Resta">-</string>
+    <string name="Multiplicacion">X</string>
+    <string name="Multi">x</string>
+    <string name="Divi">/</string>
+    <string name="restoDivi">%</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="NuevaOperacion">Nueva Operación</string>
 </resources>

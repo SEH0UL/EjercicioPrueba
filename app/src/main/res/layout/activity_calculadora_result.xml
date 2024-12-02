@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraExam.Calculadora_result">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="36sp"
+        android:text="@string/Calculadora"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvTipoOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        style="@style/TextViewEtiqueta"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvOperacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        style="@style/TextViewEtiqueta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTipoOperacion"/>
+
+    <TextView
+        android:id="@+id/tvcalculos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tras arduos calculos..."
+        style="@style/TextViewEtiqueta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvOperacion"/>
+
+
+
+    <!-- Segundo número -->
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/TextViewEtiqueta"
+        android:text="Resultado"
+        app:layout_constraintTop_toBottomOf="@id/tvcalculos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- CardView para el segundo número -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        app:cardCornerRadius="12dp"
+        app:background="@color/purple_200"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvResultado">
+
+        <TextView
+            android:id="@+id/ET_segunNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@color/purple_200"
+            android:hint="@string/space"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvnuevaOperacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="12dp">
+
+        <TextView
+            android:id="@+id/tvResultFINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/NuevaOperacion"
+            android:textSize="36sp"
+            android:background="@color/purple_200"
+            android:fontFamily="sans-serif-black"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
