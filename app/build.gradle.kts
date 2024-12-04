@@ -33,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{
+        viewBinding = true   //Además, hay que darle a sincronizar
+    }
+
 }
 
 dependencies {

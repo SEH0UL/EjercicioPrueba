@@ -10,6 +10,7 @@ import com.sehoul.ejercicioprueba.CalculadoraExam.CalculadoraMain
 import com.sehoul.ejercicioprueba.IMCapp.IMCactivity
 import com.sehoul.ejercicioprueba.MessageApp.MainActivity
 import com.sehoul.ejercicioprueba.PruebaExamen.PruebaExamen_Main
+import com.sehoul.ejercicioprueba.Superhero.SuperheroListActivity
 
 class MenuActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -22,12 +23,19 @@ class MenuActivity : AppCompatActivity() {
         var btnBoardgamesApp = findViewById<Button>(R.id.btnBoardgamesApp)
         var btnPruebaExamen = findViewById<Button>(R.id.btnPruebaExamen)
         var btnCalculadora = findViewById<Button>(R.id.btnCalculadora)
+        var SuperHeroApp = findViewById<Button>(R.id.SuperHeroApp)
 
         btnMessageApp.setOnClickListener{navigateToMessageApp()}
         btnBoardgamesApp.setOnClickListener{ navigateToBoardgamesApp() }
         btnIMCapp.setOnClickListener{navigateToIMCapp()}
         btnPruebaExamen.setOnClickListener { navigateToPruebaExamen() }
         btnCalculadora.setOnClickListener { navigateToCalculadoraMain() }
+        SuperHeroApp.setOnClickListener { navigateToSuperHeroApp() }
+    }
+
+    private fun navigateToSuperHeroApp() {
+        var intent = Intent (this, SuperheroListActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToCalculadoraMain() {
