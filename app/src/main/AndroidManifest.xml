@@ -18,6 +18,9 @@
             android:name=".Superhero.SuperheroListActivity"
             android:exported="false" />
         <activity
+            android:name=".Superhero.DetailSuperheroActivity"
+            android:exported="false" />
+        <activity
             android:name=".CalculadoraExam.Calculadora_result"
             android:exported="false" />
         <activity
