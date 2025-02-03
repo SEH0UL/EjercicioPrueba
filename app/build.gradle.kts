@@ -55,5 +55,15 @@ dependencies {
 
     // PICASSO
     implementation (libs.picasso)
+
+    //DataStore
+    implementation (libs.androidx.datastore.preferences)
+
+    testImplementation(libs.junit)
+    //noinspection GradleDependency
+    androidTestImplementation(libs.androidx.junit)
+    //noinspection GradleDependency
+    androidTestImplementation(libs.androidx.espresso.core)
+
 }
 
